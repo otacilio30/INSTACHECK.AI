@@ -97,8 +97,8 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
   const fakePosts: Post[] = [
     {
       id: "fake-1",
-      username: "jadepicon",
-      userImage: "/images/whatsapp-20image-202026-01-08-20at-2018.jpeg",
+      username: "jadepicon****",
+      userImage: "/images/jadepicon-avatar.png",
       postImage: "/images/whatsapp-20image-202026-01-08-20at-2018.jpeg",
       likes: 28100,
       comments: 622,
@@ -107,8 +107,8 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-2",
-      username: "francielle",
-      userImage: "/images/franciele.jpeg",
+      username: "francielle****",
+      userImage: "/images/francielle-avatar.png",
       postImage: "/images/franciele.jpeg",
       likes: 847,
       comments: 93,
@@ -117,7 +117,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-3",
-      username: "laisa",
+      username: "laisa****",
       userImage: "/images/laisa.jpeg",
       postImage: "/eyelash-extensions-close-up.jpg",
       likes: 15,
@@ -127,7 +127,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-4",
-      username: "cheila",
+      username: "cheila****",
       userImage: "/attractive-woman-profile.png",
       postImage: "/beauty-training-certificates.jpg",
       likes: 17,
@@ -137,7 +137,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-5",
-      username: "alice",
+      username: "alice****",
       userImage: "/images/alice.jpeg",
       postImage: "/woman-winter-photo.jpg",
       likes: 23,
@@ -147,7 +147,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-6",
-      username: "rodrigo",
+      username: "rodrigo****",
       userImage: "/images/man-mountain-profile.jpg",
       postImage: "/images/copacabana-fireworks.avif",
       likes: 1243,
@@ -157,7 +157,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-7",
-      username: "julia",
+      username: "julia****",
       userImage: "/woman-smiling-photo.jpg",
       postImage: "/images/maldives-couple.png",
       likes: 3542,
@@ -167,7 +167,7 @@ export function InstagramFeed({ profileData, username }: InstagramFeedProps) {
     },
     {
       id: "fake-8",
-      username: "luiz",
+      username: "luiz****",
       userImage: "/images/7b2d50653d-4e1f-468f-a7e2-12f9e2249195-7d.png",
       postImage: "/images/7baf4187f1-b552-4f74-80e0-6623ce4ddd0b-7d.png",
       likes: 892,

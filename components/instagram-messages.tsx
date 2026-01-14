@@ -288,7 +288,10 @@ export default function InstagramMessages({ onBack, username, profilePicUrl, pro
       <div className="px-4 py-3 border-b border-gray-800">
         <div className="flex gap-4 overflow-x-auto scrollbar-hide pb-1">
           {notes.map((note) => (
-            <div key={note.id} className="flex flex-col items-center flex-shrink-0 relative cursor-pointer">
+            <div
+              key={note.id}
+              className="flex flex-col items-center justify-end flex-shrink-0 relative cursor-pointer min-h-[140px]"
+            >
               {(note.noteText || note.hasMusic) && (
                 <div className="relative mb-2">
                   <div className="bg-[#262626] rounded-2xl px-3 py-2 max-w-[100px] min-w-[70px]">
@@ -313,7 +316,7 @@ export default function InstagramMessages({ onBack, username, profilePicUrl, pro
 
               <div
                 className={`
-                  w-[72px] h-[72px] rounded-full overflow-hidden bg-gray-800 relative
+                  w-[72px] h-[72px] rounded-full overflow-hidden bg-gray-800 relative flex-shrink-0
                   ${note.isOwn ? "ring-[3px] ring-green-500" : ""}
                 `}
               >
